@@ -1,0 +1,88 @@
+body {
+	padding: 0;
+}
+.CodeMirror {
+  	min-height: 400px;
+}
+.container {
+	position: relative;
+}
+#footer {
+	margin-top: 50px;
+}
+#kickbutt-header {
+	box-shadow: inset 0 -10px 50px 0px rgba(30, 30, 30, .1);
+	background: #71d0fc;
+	background: -moz-linear-gradient(top,  #71d0fc 0%, #5f77bf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#71d0fc), color-stop(100%,#5f77bf));
+	background: -webkit-linear-gradient(top,  #71d0fc 0%,#5f77bf 100%);
+	background: -o-linear-gradient(top,  #71d0fc 0%,#5f77bf 100%);
+	background: -ms-linear-gradient(top,  #71d0fc 0%,#5f77bf 100%);
+	background: linear-gradient(to bottom,  #71d0fc 0%,#5f77bf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71d0fc', endColorstr='#5f77bf',GradientType=0 );
+	color: white;
+	height: 250px;
+	position: relative;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	z-index: -1;
+	
+}
+#kickbutt-header h2 {
+	margin-top: 20px;
+}
+#kickbutt-header h2, #kickbutt-header p {
+	text-shadow: 0 1px 0 #222;
+	text-align: center;
+}
+
+#kickbutt-editor {
+	margin-top: -50px;
+}
+.inner-wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 700px;
+}
+#kickbutt-save {
+	top: 40px;
+	right: -120px;
+	position: absolute;
+}
+
+.decor {
+    z-index: 1;
+    font-size: 80px;
+    color: rgba(255, 255, 255, .5);
+    position: absolute;
+}
+.decor.cool {
+    bottom: -109%;
+    right: 0%;
+}
+
+.decor.braces {
+    left: 75%;
+    bottom: -70%;
+}
+.decor.asterisk {
+    right: 10%;
+    bottom: -56%;
+    color: rgba(255, 255, 255, .35);
+}
+.decor.fslashes {
+    bottom: -52%;
+    left: 3%;
+    color: rgba(255, 255, 255, .2);
+}
+.decor.lt {
+    bottom: -120%;
+    color: rgba(255, 255, 255, .3);
+}
+.decor.bslashes {
+    bottom: -120%;
+}
+.decor.comment {
+    bottom: -90%;
+    left: 7%;
+}
