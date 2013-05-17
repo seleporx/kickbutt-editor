@@ -5,7 +5,7 @@ $(document).ready(function() {
 	// tab completion codemirror+emmet
 	CodeMirror.fromTextArea(document.getElementById("the-editor"), {
 		theme: "ambiance",
-		mode : "text/html",
+		mode : "htmlmixed",
 		lineNumbers : true,
 		profile: 'xhtml' /* define Emmet output profile */
 	});
